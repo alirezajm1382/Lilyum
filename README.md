@@ -22,7 +22,7 @@ Lilyum is a minimalistic and user-friendly period tracking Progressive Web App (
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/lilyum.git
+git clone https://github.com/alirezajm1382/lilyum.git
 cd lilyum
 ```
 

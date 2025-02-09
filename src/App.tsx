@@ -1,13 +1,20 @@
 import { useState } from 'react'
+
+// Router
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
-import { Layout, ConfigProvider, theme } from 'antd'
+
+// Ant Design
+import { ConfigProvider, theme } from 'antd'
+
+// Components
 import AppLayout from './components/layout/AppLayout'
+
+// Screens
 import Onboarding from './components/screens/Onboarding'
 import Dashboard from './components/screens/Dashboard'
 import LogPeriod from './components/screens/LogPeriod'
 import Settings from './components/screens/Settings'
 
-const { Content } = Layout
 
 function App() {
   const [isOnboarded, setIsOnboarded] = useState<boolean>(false)
